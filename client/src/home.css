@@ -1,0 +1,67 @@
+.para .std{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background-color:transparent;
+    color: red;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.para span{
+    top: 0%;
+    background-color: #b3e856;
+    height:100%;
+    width: 0;
+    border:40px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transition:0.5s;
+}
+.para .std:hover span{
+    width: 100%;
+}
+.para .std:hover{
+    color: black;
+    border:none;
+}
+/* cashier */
+.para .cashier{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #662ecd;
+    background-color:transparent;
+    color: rgb(0, 255, 64);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.para .cashier span{
+    top: 0%;
+    background-color: #e8992a;
+    height:100%;
+    width: 0;
+    border:40px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transition:0.5s;
+}
+.para .cashier:hover span{
+    width: 100%;
+
+}
+.para .cashier:hover{
+    color: black;
+    /* border:none; */
+    border: 2px solid #662ecd;
+}

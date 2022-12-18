@@ -1,0 +1,25 @@
+.toast-success{
+    background-color:green;
+    color:white;
+}
+.log{
+    width: 350px;
+    height: 350px; 
+    background-color:lightblue;
+    align-items:center;
+    justify-content: center;
+    border:solid 1px rebeccapurple;
+    border-radius: 50px;
+}
+.btn {
+    width: 80px;
+    color: blue;
+    background-color:lightgreen;
+    transition:all .5s ease-in;
+
+}
+.btn:hover{
+    /* transition:all .5s ease-in; */
+    /* height: 50px; */
+    background-color:orange;
+}

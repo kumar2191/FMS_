@@ -1,0 +1,86 @@
+.cointainer{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    /* background: red; */
+}
+.card{
+    padding:60px 40px 50px 40px;
+    background:black;
+    border-radius: 25px;
+
+}
+.card_name{
+    width: 500px;
+    border:none;
+    background:white;
+    border-bottom: 1px solid white;
+    padding: 15px;
+    margin-bottom:20px;
+    color:rgb(65, 214, 152);
+    border-radius:20px;
+    font-weight: bold;
+}
+.card_name[type="text"]::-webkit-input-placeholder{
+    color:rgb(221, 50, 129);
+    text-transform: capitalize;
+}
+.card_name[type="email"]::-webkit-input-placeholder{
+    color:rgb(221, 50, 129);
+    text-transform: capitalize;
+}
+.card_name[type="password"]::-webkit-input-placeholder{
+    color:rgb(221, 50, 129);
+    text-transform: capitalize;
+}
+#submitid{
+    border-radius: 20px;
+    padding: 20px 20px;
+    background: dodgerblue;
+    color: white;
+    margin-top:20px;
+    border: none;
+    outline: none;
+    /* margin-left:70px ; */
+}
+#submitid:active{
+    background: red;
+}
+#backid{
+    border-radius: 20px;
+    padding: 20px 20px;
+    background: rgb(0, 255, 195);
+    color: black;
+    margin-top:20px;
+    border: none;
+    outline: none;
+}
+#backid:active{
+    background: rgb(198, 42, 159);
+}
+#hodid{
+    border-radius: 20px;
+    padding: 20px 20px;
+    background: rgb(220, 208, 31);
+    color: black;
+    margin-top:20px;
+    border: none;
+    outline: none;
+}
+#hodid:active{
+    background: rgb(75, 234, 50);
+}
+#backhid{
+    border-radius: 20px;
+    padding: 20px 20px;
+    background: rgb(201, 44, 123);
+    color: rgb(6, 6, 6);
+    margin-top:20px;
+    border: none;
+    outline: none;
+    
+}
+#backhid:active{
+background: rgb(33, 205, 236);
+}

@@ -1,0 +1,24 @@
+.fine-list{
+    text-align:center;
+    margin-top:50px;
+  }
+  .fine-list ul{
+    margin: 0;
+  }
+  .fine-list ul li{
+    display: inline-block;
+    border: 5px double rgb(129, 231, 126);
+    padding:5px;
+    width:150px;
+  }
+  .tot{
+    color:red
+  }
+
+  .tott{
+    color:green
+  }
+  .th{
+    font-weight: bold;
+   color:rgb(212, 17, 238);
+  }

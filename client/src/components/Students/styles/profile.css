@@ -1,0 +1,79 @@
+tabel{
+    width:600px;
+    box-shadow: -1px 12px 12px 12px -6px rgba(0,0,0,0.5);
+    /* padding:20px;
+    border:1px solid lightcoral;
+    border-collapse: collapse;
+    text-align:center; */
+}
+td{
+    padding:20px;
+    border:1px solid lightcoral;
+    border-collapse: collapse;
+    text-align:center;
+    font-size:18px;
+
+}
+th{
+    background-color:rgb(29, 230, 79);
+    color:rgb(137, 54, 225);
+    padding:20px;
+    border:1px solid lightcoral;
+    border-collapse: collapse;
+    text-align:center;
+}
+tr:nth-child(odd){
+    background-color:rgb(68, 218, 170)
+}
+tr:nth-child(odd):hover{
+    background-color:dodgerblue;
+    color:white;
+    /* transform: scale(1.5);
+    transition:0.5s ease-in; */
+
+}
+tr:nth-child(even){
+    background-color:rgba(43, 214, 71, 0.399)
+}
+tr:nth-child(even):hover{
+    background-color:rgb(52, 198, 224);
+    color:white;
+    /* transform: scale(1.5);
+    transition:0.5s ease-in-out;
+    border-radius:50px; */
+}
+
+.cashier{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #662ecd;
+    background-color:red;
+    color: rgb(0, 255, 64);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.cashier span{
+    top: 0%;
+    background-color: #e8992a;
+    height:100%;
+    width: 0;
+    border:40px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transition:0.5s;
+}
+ .cashier:hover span{
+    width: 100%;
+
+}
+ .cashier:hover{
+    color: black;
+    /* border:none; */
+    border: 2px solid #662ecd;
+}
